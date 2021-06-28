@@ -1,0 +1,20 @@
+class User:
+    name = str()
+    surname = str()
+    ages = int()
+
+    def __init__(self, name, surname, ages):
+        self.name = name
+        self.surname = surname
+        self.ages = ages
+
+    def getData(self):
+        print("name = {0}, surname = {1}, ages = {2}".format(self.name, self.surname, self.ages))
+
+arr = []
+
+for i in arr:
+    try:
+        i.getData()
+    except:
+        print('Book is empty')
